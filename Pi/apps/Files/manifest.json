@@ -1,0 +1,10 @@
+{
+    "id": "com.helm.files",
+    "name": "Files",
+    "version": "0.1.0",
+    "description": "Manage files on the HELM and PC",
+    "entry_point": "src.main",
+    "icon": "assets/icon.png",
+    "enabled": true,
+    "category": "Utilities"
+}

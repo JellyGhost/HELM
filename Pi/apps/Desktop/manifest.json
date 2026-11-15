@@ -1,0 +1,10 @@
+{
+    "id": "com.helm.desktop",
+    "name": "Desktop",
+    "version": "0.1.0",
+    "description": "Stream live projections of a connected PC and control it remotely",
+    "entry_point": "src.main",
+    "icon": "assets/icon.png",
+    "enabled": true,
+    "category": "Utilities"
+}

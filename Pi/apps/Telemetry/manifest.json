@@ -1,0 +1,10 @@
+{
+    "id": "com.helm.telemetry",
+    "name": "Telemetry",
+    "version": "0.1.0",
+    "description": "Monitor performance and connectivity of a connected PC",
+    "entry_point": "src.main",
+    "icon": "assets/icon.png",
+    "enabled": true,
+    "category": "Utilities"
+}

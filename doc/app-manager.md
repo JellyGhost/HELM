@@ -39,7 +39,7 @@ Every app must contain a manifest.json file describing its identity and metadata
 
 The manifest is structured as such:
 
-{
+#### {
     "id": "sample.id",
     "name": "sampleNAME",
     "version": "versionid",

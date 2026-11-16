@@ -38,8 +38,8 @@ Discovery must not execute app code. Apps are only launched when explicity selec
 Every app must contain a manifest.json file describing its identity and metadata
 
 The manifest is structured as such:
-
-#### {
+```json
+{
     "id": "sample.id",
     "name": "sampleNAME",
     "version": "versionid",
@@ -49,7 +49,7 @@ The manifest is structured as such:
     "enabled": true/false,
     "category": "App Category"
 }
-
+```
 App identifiers should use a consistent lowercase reverse-domain naming convention, such as "com.helm.telemetry".
 
 The App Manager should validate manifest fields and verify that referenced resources are available before making an app available to the launcher
